@@ -1,0 +1,21 @@
+{
+    "name": "vendor/blog",
+    "description": "test blog",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nikita",
+            "email": "ikirabjob@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "Core\\" : "vendor/blog/src/",
+            "App\\" : "app/"
+        }
+    },
+    "require": {
+        "twbs/bootstrap": "^3.3"
+    }
+}
